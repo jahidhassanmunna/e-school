@@ -11,4 +11,12 @@
 .color{
     color:red;
 }
+.cat1,.cat3,.cat4{
+    background-color: #f0fff0;
+    padding:10px 30px;
 
+}
+.cat2{
+    background-color: white;
+    padding:10px 30px;
+}
