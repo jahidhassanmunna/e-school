@@ -3,94 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-school</title>
+    <title>E-School</title>
+    <link rel="shortcut icon" href="pic/ICON/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-       <div class="container1">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-              <img src="images/icon/logo.png" class="img-fluid w-25" alt="">
-          </a>
+  <header>
+            <!-- navigation  area -->
+        <nav class="navbar navbar-expand-md navbar-light container">
+          <a class="navbar-brand" href="#"><img src="images/icon/logo.png" class="logo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse d-flex flex-row-reverse " id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#Books"><b>Books</b></a>
+                <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#courses"><b>courses</b></a>
+                <a class="nav-link" href="#">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Others"><b>Others</b></a>
+                <a class="nav-link" href="#">Others</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#blog"><b>blog</b></a>
+                <a class="nav-link">Blog</a>
               </li>
-              <button class="btn btn-success">sign in</button>
+              <li class="nav-item">
+                <div class="center"> <a class="nav-link text-light" id="sign-in">
+                   <button id="sing-in">Sign in</button>
+                 </a></div>
+                </li>
             </ul>
           </div>
         </nav>
-       </div> 
-          <div class="row align-items-center">
-            <div class="col-md-7">
-              <h4 class="color">Are you ready to learn ?</h4>
-              <h1>Learn with fun <br> on <p class="change">any scheduel</p></h1>
-              <p>this is e-school where you can learn everything. we are focus on math and science which are very important now in this world</p>
-              <button class="btn btn-success">Get Started</button>
-
-            </div>
-            
-              <div class="col-md-5">
-                <img class="img-fluid"src="images/Photos/Illustration.png" alt="">
-              </div>
-            
+           <!-- Illustration  area --->
+      <div class="back-color">
+       <div class="row d-flex justify-content-between align-items-center">
+         <div class="col-5" >
+              <h5 class="red-text">Are you ready to learn?</h5>
+              <h1>Learn with fun on 
+                 <span class="green-text">any schedule</span></h1>
+              <p>It's a biggest platform for everyone to know math english sociology and lot of things. we want every students can be a
+              </p>
+              <button class="get-button">Get Started</button>
+         </div>
+         <div col-7>
+         <img class="img-fluid" src="images/Photos/Illustration.png" alt="">
+         </div>
+       </div>
       </div>
-      <div class="container categories"id="books">
-        <div class="row">
-          <div class="col-md-3">
-           <div class="cat1 align-items-center">
-            <img class="img-fluid w-25"src="images/icon/book.png" alt="">
-            <h1>1500+ Topic</h1>
-            <h3>Learn anything</h3>
-           </div>
+  </header>
+        <!-- features area --->
+        <div class="container">
+          <div class="row">
+              <div class="col-6 col-sm-6 col-lg-2 col-xl-2 offset-lg-1 offset-xl-1 text-center feature-box">
+                 <img src="images/icon/book.png" alt="book" class="img1">
+                 <h5>1500+ Topics</h5>
+                 <small>Learn Anythings</small>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-2 col-xl-2 offset-lg-1 offset-xl-1 text-center feature-box">
+                  <img src="images/icon/Student.png" alt="book" class="img2">
+                 <h5>1800+ Students</h5>
+                 <small>Learn Anythings</small>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-2 col-xl-2 offset-lg-1 offset-xl-1 text-center feature-box">
+                  <img src="images/icon/Test.png" alt="book" class="img3">
+                 <h5>9K+ Test Token</h5>
+                 <small>Learn Anythings</small>
+              </div>
+              <div class="col-6 col-sm-6 col-lg-2 col-xl-2 offset-lg-1 offset-xl-1 text-center feature-box">
+                  <img src="images/icon/Students.png" alt="book" class="img4">
+                 <h5>2000+ Students</h5>
+                 <small>Learn Anythings</small>
+              </div>
           </div>
-          <div class="col-md-3">
-            <div class="cat2 align-items-center">
-              <img class="img-fluid w-25" src="images/icon/Student.png" alt="">
-              <h1>1800+ student</h1>
-              <h3>Learn anything</h3>
-            </div>
-            
-          </div>
-          <div class="col-md-3">
-            <div class="cat3 align-items-center justify-content-center">
-              <img class="img-fluid w-25"src="images/icon/Test.png" alt="">
-              <h1>9k+ Test</h1>
-              <h3>Learn anything</h3>
-            </div>
-            
-          </div>
-          <div class="col-md-3">
-            <div class="cat4 align-items-center">
-              <img class="img-fluid w-25"src="images/icon/Students.png" alt="">
-              <h1>2000+ Students</h1>
-              <h3>Learn anything</h3>
-            </div>
-          </div>
-            
-          
+      </div>
+      <div class="container">
+        <div class="online-course">
+           <h3> <b>Online Course </b> </h3>
         </div>
       </div>
-    </div>
-    
+       <div class="container">
+        <div class="card-deck">
+          <div class="card">
+            <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Morder Psychology</h5>
+              <p class="card-text">Designation</p>
+              <button class="buy-button">Buy Course</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted d-flex justify-content-between">
+                <span>
+                  <img src="pic/ICON/calendar.png" alt="" class="calender-img">Start 25 April, 2020 
+                </span>
+
+                <span>
+                  <img src="pic/ICON/people.png" alt="" class="calender-img">60 seats
+                </span>
+              </small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/photos/Morder psyc.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Morder Psychology</h5>
+              <p class="card-text">Designation</p>
+            <button class="buy-button">Buy Course</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted d-flex justify-content-between">
+                <span>
+                  <img src="pic/ICON/calendar.png" alt="" class="calender-img">Start 25 April, 2020 
+                </span>
+                <span>
+                  <img src="pic/ICON/people.png" alt="" class="calender-img">60 seats
+                </span>
+              </small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/photos/Morder pychons.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Morder Psychology</h5>
+              <p class="card-text">Designation</p>
+              <button class="buy-button">Buy Course</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted d-flex justify-content-between">
+                <span>
+                  <img src="pic/ICON/calendar.png" alt="" class="calender-img">Start 25 April, 2020 
+                </span>
+                <span>
+                  <img src="pic/ICON/people.png" alt="" class="calender-img">60 seats
+                </span>
+              </small>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="testimonial ">
+         <h1> <b>Testimonial </b> </h1>
+       </div>
+       <div class=" row  d-flex justify-content-center align-items-center ">
+         <div  class="col-2">
+          <img class="gone"src="images/Photos/Man.png" alt="" class="img-fluid Techer-img">
+         </div>
+           <div class="col-6">
+             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum expedita rem illo nobis praesentium tenetur natus maiores ipsam id, ullam sequi quisquam ipsa nemo harum ab quasi beatae amet iste. </p>
+           </div>
+       </div>
+        
+       <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-around align-items-center align-self-center">
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4 ">
+                    <p>illions of people of all ages and from around the world are improving their lives with us</p>
+                </div>
+                <div class="col-4 col-sm-4 col-md-6 col-lg-2 col-xl-2 offset-lg-1 offset-xl-1">
+                    <ul class="list-unstyled">
+                        <li><a href="#" id="course">Courses</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Engineering</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-sm-4 col-md-6 col-lg-2 col-xl-2">
+                    <ul class="list-unstyled">
+                        <li><a href="#" id="terms">Terms</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Engineering</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-sm-4 col-md-6 col-lg-2 col-xl-2">
+                    <ul class="list-unstyled">
+                        <li><a href="#" id="useful-links">Useful Links</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Engineering</a></li>
+                    </ul>
+                </div>
+                <div class="offset-lg-1 offset-xl-1"></div>
+            </div>
+        </div>
+         <p class="copyright text-center">Copyright &copy;2020|Ibrahim Munna's Creation</p>
+</footer>
+      
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-     
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,22 +1,120 @@
-.container1{
-    margin-bottom:150px;
-}
 .container{
-    background-color: #f0fff0;
-    height:576px;
+    margin-bottom: 40px;
 }
-.change{
-    color:green;
+.logo{
+    width: 198.07px;
+    height: 59px;
 }
-.color{
-    color:red;
+#sing-in{
+    background-color: #21B573;
+    border-radius: 36px;
+    font-size: 1.1em;
+    text-align: center;
+   height: 43px;
+   width: 104px;
+   border: none;
 }
-.cat1,.cat3,.cat4{
-    background-color: #f0fff0;
-    padding:10px 30px;
+.red-text{
+    color: #FD511A;
+}
+.green-text{
+    color:  #21B573;
+}
+.back-color{
+    background-color:#F0FFF0;
+    padding: 50px;
+}
+.back-color{
+    text-decoration:  #6C6B6B;
+}
+.get-button{
+    background-color: #21B573;
+    border-radius: 36px;
+    border: none;
+    height: 50px;
+    width: 110px;
+    color: white;
+}
 
+.img1{
+    background-color: #F8FFFB;
+    width: 66px;
+    height: 85px;
+  
 }
-.cat2{
-    background-color: white;
-    padding:10px 30px;
+.img2{
+    background-color: #F8FFFB;
+        width: 80px;
+        height: 83px;}
+    
+.img3{
+    background-color: #F8FFFB;
+    width: 75px;
+    height: 80px;
+   
 }
+.img4{
+    background-color: #F8FFFB;
+    width: 68px;
+    height: 76px;
+}
+.feature-box{
+    border-radius: 30px;
+    width: 270px;
+    height: 270px;
+    padding-top: 3em;
+}
+.feature-box:hover{
+    box-shadow: 0px 20px 40px rgba(128, 245, 124, 0.267);
+}
+.online-course h3{
+    text-align: center;
+}
+.buy-button{
+    background-color: #21B573;
+    border-radius: 36px;
+    border: none;
+    height: 50px;
+    width: 110px;
+    color: white;
+}
+.buy-button:hover{
+background-color: #6C6B6B;
+}
+.card-pic{
+    width: 331px;
+    height: 234px;
+}
+.calender-img{
+    width: 24px;
+    height: 24px;
+}
+.testimonial h1{
+ text-align: center;
+}
+.Techer-img{
+    width: 120px;
+    height: 120px;
+}
+footer{
+    background-color: #282531;
+    padding-top: 5rem;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(143, 139, 139);
+}
+#course, #terms, #useful-links{
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: white;
+}
+
+footer p{
+    margin-top: 3rem;
+    color: gray;
+}
+
+footer .copyright{
+    font-size: .9em;
+} 
